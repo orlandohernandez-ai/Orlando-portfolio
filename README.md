@@ -69,7 +69,7 @@ https://github.com/orlandohernandez-ai/etl_csv_cleaning_pipeline
 Multi-page website built using HTML and CSS.
 
 Repository:
-https://github.com/orlandohernandez-ai/pamela-daycare-website
+Private (Client Project)
 
 ---
 
