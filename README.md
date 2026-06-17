@@ -55,20 +55,21 @@ https://github.com/orlandohernandez-ai/etl_api_pipeline
 
 ---
 
+## Batch Sales ETL Pipeline
+
+Sales CSV → Pandas → SQLite → SQL Aggregation → Report Generation
+
+Repository: 
+https://github.com/orlandohernandez-ai/batch_sales_pipeline
+
+---
+
 ### ETL CSV Cleaning Pipeline
 
 CSV → Pandas → Data Cleaning → SQLite
 
 Repository:
 https://github.com/orlandohernandez-ai/etl_csv_cleaning_pipeline
-
----
-
-## Batch Sales ETL Pipeline
-
-Sales CSV → Pandas → SQLite → SQL Aggregation → Sales Report
-
-Repository: https://github.com/orlandohernandez-ai/batch_sales_pipeline
 
 ---
 
