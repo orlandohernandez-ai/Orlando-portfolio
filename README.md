@@ -64,6 +64,14 @@ https://github.com/orlandohernandez-ai/etl_csv_cleaning_pipeline
 
 ---
 
+## Batch Sales ETL Pipeline
+
+Sales CSV → Pandas → SQLite → SQL Aggregation → Sales Report
+
+Repository: https://github.com/orlandohernandez-ai/batch_sales_pipeline
+
+---
+
 ### Pamela Daycare Website
 
 Multi-page website built using HTML and CSS.
