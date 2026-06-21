@@ -28,6 +28,27 @@ https://github.com/orlandohernandez-ai/ops-control-tower
 
 ---
 
+### ☕ Data Engineering Barista
+
+A personal website that applies data engineering concepts to coffee brewing through experimentation, measurement, analysis, and continuous improvement.
+
+Coffee Beans → Data Collection → Brewing Process → Brew Log → Analysis → Optimization
+
+Tech Stack:
+
+- HTML
+- CSS
+- Git
+- GitHub Pages
+
+Live Website:
+https://orlandohernandez-ai.github.io/coffee-website/
+
+Repository:
+https://github.com/orlandohernandez-ai/coffee-website
+
+---
+
 ### Churn ML End-to-End
 
 Machine learning pipeline for customer churn prediction and retention prioritization.
