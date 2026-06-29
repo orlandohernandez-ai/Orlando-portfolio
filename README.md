@@ -28,6 +28,48 @@ https://github.com/orlandohernandez-ai/ops-control-tower
 
 ---
 
+### 🤖 Ask Orlando AI *(In Progress)*
+
+### Overview
+
+Ask Orlando AI is an AI-powered portfolio assistant designed to answer questions about my projects, certifications, technical skills, and engineering journey.
+
+Instead of a traditional portfolio, this project combines a structured knowledge base with artificial intelligence to help visitors explore my work through natural language conversations.
+
+### Current Features
+
+- Structured AI knowledge base
+- Project documentation
+- Technical skills database
+- Certification and course library
+- Personal engineering profile
+
+### Planned Features
+
+- AI-powered chat interface
+- Intelligent search and retrieval
+- Large Language Model (LLM) integration
+- Project recommendations
+- Interactive portfolio assistant
+- PostgreSQL knowledge storage
+
+### Technologies
+
+- HTML
+- CSS
+- JavaScript
+- Git
+- GitHub
+- Markdown
+- Artificial Intelligence (planned)
+- PostgreSQL (planned)
+
+### Status
+
+🚧 Active Development
+
+---
+
 ### ☕ Data Engineering Barista
 
 A personal website that applies data engineering concepts to coffee brewing through experimentation, measurement, analysis, and continuous improvement.
