@@ -61,12 +61,17 @@ Instead of a traditional portfolio, this project combines a structured knowledge
 - Git
 - GitHub
 - Markdown
-- Artificial Intelligence (planned)
-- PostgreSQL (planned)
+- LLM Integration (planned)
+- PostgreSQL Knowledge Storage (planned)
 
 ### Status
 
 🚧 Active Development
+
+Currently building the knowledge base and preparing for AI-powered conversational search.
+
+Repository:
+https://github.com/orlandohernandez-ai/ask-orlando-ai
 
 ---
 
