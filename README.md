@@ -4,31 +4,35 @@
 
 From Operations to Cloud, Data Engineering, AI, and Full-Stack Development.
 
-My goal is to build an Operations Control Tower that combines data engineering, machine learning, cloud computing, monitoring, and automation into a single operational platform.
+My goal is to build an Operations Control Tower that combines data engineering, machine learning, cloud computing, monitoring, automation, and real-time event processing into a single operational platform.
+
+I enjoy building projects that solve real-world operational problems while documenting my engineering journey through GitHub and LinkedIn.
 
 ---
 
-## Featured Projects
+# ⭐ Featured Projects
 
-### Operations Control Tower
+## Operations Control Tower
 
 UPS-inspired operational monitoring platform currently under development.
 
-Skills:
+### Skills
 
+- Python
 - PostgreSQL
 - SQL
-- Python
-- Monitoring
+- Docker
 - Data Engineering
+- Monitoring
 - Dashboard Design
 
 Repository:
+
 https://github.com/orlandohernandez-ai/ops-control-tower
 
 ---
 
-### 🤖 Ask Orlando AI *(In Progress)*
+### 🤖 Ask Orlando AI _(In Progress)_
 
 ### Overview
 
@@ -75,50 +79,106 @@ https://github.com/orlandohernandez-ai/ask-orlando-ai
 
 ---
 
-### ☕ Data Engineering Barista
+## 📦 Logistics Event Simulator
 
-A personal website that applies data engineering concepts to coffee brewing through experimentation, measurement, analysis, and continuous improvement.
+Python-based event-driven logistics simulation that models warehouse and transportation operations.
 
-Coffee Beans → Data Collection → Brewing Process → Brew Log → Analysis → Optimization
+### Features
 
-Tech Stack:
+- Event Producer
+- Event Consumer
+- Business Rule Processing
+- Operational Alert Detection
+- PostgreSQL Integration
+- Docker Support
 
-- HTML
-- CSS
+### Technologies
+
+- Python
+- PostgreSQL
+- SQL
+- Docker
 - Git
-- GitHub Pages
-
-Live Website:
-https://orlandohernandez-ai.github.io/coffee-website/
+- GitHub
 
 Repository:
-https://github.com/orlandohernandez-ai/coffee-website
+
+https://github.com/orlandohernandez-ai/logistics-event-simulator
 
 ---
 
-### Churn ML End-to-End
+## 🤖 Ask Orlando AI _(In Progress)_
+
+AI-powered portfolio assistant designed to answer questions about my projects, certifications, technical skills, and engineering journey.
+
+Instead of a traditional portfolio, this project combines a structured knowledge base with artificial intelligence to help visitors explore my work through natural language conversations.
+
+### Current Features
+
+- Structured AI knowledge base
+- Project documentation
+- Technical skills database
+- Certification library
+- Engineering profile
+
+### Planned Features
+
+- AI-powered chat interface
+- Retrieval-Augmented Generation (RAG)
+- Large Language Model (LLM) integration
+- Intelligent project recommendations
+- Interactive portfolio assistant
+- PostgreSQL knowledge storage
+
+### Technologies
+
+- HTML
+- CSS
+- JavaScript
+- Markdown
+- Git
+- GitHub
+- PostgreSQL (planned)
+- LLM Integration (planned)
+
+### Status
+
+🚧 Active Development
+
+Repository:
+
+https://github.com/orlandohernandez-ai/ask-orlando-ai
+
+---
+
+## 📈 Churn ML End-to-End
 
 Machine learning pipeline for customer churn prediction and retention prioritization.
 
 Repository:
+
 https://github.com/orlandohernandez-ai/churn-ml-end-to-end
 
 ---
 
-### Web Scraping ETL Pipeline
+# 📊 Data Engineering Projects
+
+## Web Scraping ETL Pipeline
 
 Website → BeautifulSoup → Pandas → SQLite
 
 Repository:
+
 https://github.com/orlandohernandez-ai/web_scraping_etl_pipeline
 
 ---
 
-### ETL API Pipeline
+## ETL API Pipeline
 
 API → Pandas → CSV
 
 Repository:
+
 https://github.com/orlandohernandez-ai/etl_api_pipeline
 
 ---
@@ -127,52 +187,161 @@ https://github.com/orlandohernandez-ai/etl_api_pipeline
 
 Sales CSV → Pandas → SQLite → SQL Aggregation → Report Generation
 
-Repository: 
+Repository:
+
 https://github.com/orlandohernandez-ai/batch_sales_pipeline
 
 ---
 
-### ETL CSV Cleaning Pipeline
+## ETL CSV Cleaning Pipeline
 
 CSV → Pandas → Data Cleaning → SQLite
 
 Repository:
+
 https://github.com/orlandohernandez-ai/etl_csv_cleaning_pipeline
 
 ---
 
-### Pamela Daycare Website
+# 🌐 Web Projects
 
-Multi-page website built using HTML and CSS.
+## ☕ Data Engineering Barista
+
+A personal website documenting coffee experimentation using data engineering principles.
+
+Coffee Beans → Data Collection → Brewing Process → Brew Log → Analysis → Optimization
+
+Live Website:
+
+https://orlandohernandez-ai.github.io/coffee-website/
 
 Repository:
+
+https://github.com/orlandohernandez-ai/coffee-website
+
+---
+
+## Pamela Daycare Website
+
+Multi-page responsive website built using HTML and CSS.
+
+Repository:
+
 Private (Client Project)
 
 ---
 
-## Current Learning Path
+# 🎯 Current Learning Path
 
 - IBM Data Engineering Professional Certificate
-- Google Cloud Machine Learning Engineer
+- Google Cloud Machine Learning Engineer Professional
 - Full-Stack Development
 - Data Architecture
+- Stream Processing
 - Operations Control Tower Development
 
 ---
 
-## Core Skills
+# 🛠 Core Skills
+
+### Programming
 
 - Python
-- Pandas
 - SQL
-- SQLite
+- JavaScript
+- HTML
+- CSS
+
+### Databases
+
 - PostgreSQL
+- SQLite
+
+### Data Engineering
+
 - ETL Pipelines
 - Data Cleaning
 - Web Scraping
-- APIs
+- REST APIs
+- Event-Driven Architecture
+- Batch Processing
+- Streaming Concepts
+
+### Machine Learning & AI
+
 - Machine Learning
+- Generative AI
+- Prompt Engineering
+
+### Cloud & DevOps
+
+- Google Cloud Platform
+- Docker
 - Git
 - GitHub
-- Google Cloud
+
+### Software Engineering
+
+- Backend Development
 - Dashboard Development
+- System Design
+- Technical Documentation
+
+---
+
+# 🚀 Next Projects
+
+The following projects are currently planned as I continue expanding my software engineering and data engineering portfolio.
+
+### 🔄 Streamlit Logistics Dashboard
+
+Interactive real-time dashboard for monitoring logistics events, operational alerts, and facility status.
+
+---
+
+### ⚡ Kafka Event Streaming Pipeline
+
+Replace CSV-based communication with Apache Kafka to simulate enterprise-grade event streaming.
+
+---
+
+### 📦 Operations Control Tower v2
+
+Enhance the Control Tower with:
+
+- Live PostgreSQL integration
+- Stream processing
+- KPI dashboards
+- Operational metrics
+- Predictive alerts
+- Interactive visualizations
+
+---
+
+### 📑 SEC Filing Analyzer
+
+Data engineering and AI application that ingests SEC filings, extracts financial information, stores structured data, and provides AI-powered summaries.
+
+---
+
+### 🧠 Ask Orlando AI (RAG Version)
+
+Upgrade the portfolio assistant using Retrieval-Augmented Generation (RAG), PostgreSQL, embeddings, and vector search.
+
+---
+
+### ☁️ Cloud Deployment
+
+Deploy selected portfolio projects using Google Cloud services, including Cloud Run, Cloud SQL, Cloud Storage, and Pub/Sub.
+
+---
+
+# 📫 Connect With Me
+
+GitHub
+
+https://github.com/orlandohernandez-ai
+
+LinkedIn
+
+https://www.linkedin.com/in/orlandohernandez-ai/
