@@ -32,53 +32,6 @@ https://github.com/orlandohernandez-ai/ops-control-tower
 
 ---
 
-### 🤖 Ask Orlando AI _(In Progress)_
-
-### Overview
-
-Ask Orlando AI is an AI-powered portfolio assistant designed to answer questions about my projects, certifications, technical skills, and engineering journey.
-
-Instead of a traditional portfolio, this project combines a structured knowledge base with artificial intelligence to help visitors explore my work through natural language conversations.
-
-### Current Features
-
-- Structured AI knowledge base
-- Project documentation
-- Technical skills database
-- Certification and course library
-- Personal engineering profile
-
-### Planned Features
-
-- AI-powered chat interface
-- Intelligent search and retrieval
-- Large Language Model (LLM) integration
-- Project recommendations
-- Interactive portfolio assistant
-- PostgreSQL knowledge storage
-
-### Technologies
-
-- HTML
-- CSS
-- JavaScript
-- Git
-- GitHub
-- Markdown
-- LLM Integration (planned)
-- PostgreSQL Knowledge Storage (planned)
-
-### Status
-
-🚧 Active Development
-
-Currently building the knowledge base and preparing for AI-powered conversational search.
-
-Repository:
-https://github.com/orlandohernandez-ai/ask-orlando-ai
-
----
-
 ## 📦 Logistics Event Simulator
 
 Python-based event-driven logistics simulation that models warehouse and transportation operations.
