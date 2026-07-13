@@ -116,6 +116,35 @@ https://github.com/orlandohernandez-ai/churn-ml-end-to-end
 
 # 📊 Data Engineering Projects
 
+## Online Retail Data Cleaning
+
+Reproducible Python and pandas pipeline for auditing, investigating, cleaning, and validating 541,909 real-world retail transactions.
+
+### Highlights
+
+- Profiles missing values, duplicate records, cancellations, returns, stock movements, and accounting adjustments
+- Preserves valid business events while separating ordinary paid sales for analysis
+- Produces a cleaned transaction ledger and an analysis-ready sales dataset
+- Reconciles row counts and passes 13 automated validation checks
+- Documents every cleaning rule and keeps large generated datasets out of version control
+
+### Technologies
+
+- Python
+- pandas
+- openpyxl
+- Excel
+- Data Profiling
+- Data Quality Validation
+- Git
+- GitHub
+
+Repository:
+
+https://github.com/orlandohernandez-ai/online-retail-data-cleaning
+
+---
+
 ## Web Scraping ETL Pipeline
 
 Website → BeautifulSoup → Pandas → SQLite
