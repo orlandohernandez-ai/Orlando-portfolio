@@ -32,6 +32,43 @@ https://github.com/orlandohernandez-ai/ops-control-tower
 
 ---
 
+## 🏬 Retail Data Warehouse
+
+Medallion-style retail data warehouse currently under development using PostgreSQL, Python, SQL, Docker, and pgAdmin.
+
+### Current Progress
+
+- Built Bronze, Silver, and Gold database schemas
+- Created raw sales ingestion table
+- Built Python CSV-to-PostgreSQL ingestion pipeline
+- Loaded and validated source sales data in the Bronze layer
+- Added source-file and load-timestamp metadata
+- Configured PostgreSQL and pgAdmin with Docker
+- Moved database credentials to environment variables using `.env`
+
+### Architecture
+
+Raw CSV → Python ETL → Bronze → Silver → Gold
+
+**Current stage:** Bronze ingestion complete. Silver transformation is next.
+
+### Skills
+
+- Python
+- PostgreSQL
+- SQL
+- Docker
+- Data Warehousing
+- ETL
+- Medallion Architecture
+- Environment Variable / Secret Management
+
+Repository:
+
+https://github.com/orlandohernandez-ai/retail-data-warehouse
+
+---
+
 ## 📦 Logistics Event Simulator
 
 Python-based event-driven logistics simulation that models warehouse and transportation operations.
