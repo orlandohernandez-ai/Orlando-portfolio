@@ -34,36 +34,43 @@ https://github.com/orlandohernandez-ai/ops-control-tower
 
 ## 🏬 Retail Data Warehouse
 
-Medallion-style retail data warehouse currently under development using PostgreSQL, Python, SQL, Docker, and pgAdmin.
+End-to-end medallion-style retail data warehouse built with PostgreSQL, Python, SQL, Docker, and pgAdmin.
 
-### Current Progress
+### Project Highlights
 
-- Built Bronze, Silver, and Gold database schemas
-- Created raw sales ingestion table
-- Built Python CSV-to-PostgreSQL ingestion pipeline
-- Loaded and validated source sales data in the Bronze layer
-- Added source-file and load-timestamp metadata
-- Configured PostgreSQL and pgAdmin with Docker
-- Moved database credentials to environment variables using `.env`
+- Designed and implemented Bronze, Silver, and Gold data layers
+- Built a Python CSV-to-PostgreSQL ingestion pipeline
+- Loaded raw sales data into the Bronze layer with source-file and load-timestamp metadata
+- Cleaned, transformed, and validated sales data in the Silver layer
+- Created Gold-layer aggregations for business-ready reporting and analysis
+- Implemented data quality checks throughout the pipeline
+- Containerized PostgreSQL and pgAdmin using Docker
+- Secured database credentials using environment variables and `.env`
+- Validated data at each stage using SQL and pgAdmin
 
 ### Architecture
 
-Raw CSV → Python ETL → Bronze → Silver → Gold
+**Raw CSV → Python ETL → Bronze → Silver → Gold → Business-Ready Data**
 
-**Current stage:** Bronze ingestion complete. Silver transformation is next.
-
-### Skills
+### Technologies & Skills
 
 - Python
 - PostgreSQL
 - SQL
 - Docker
+- pgAdmin
+- ETL Pipelines
 - Data Warehousing
-- ETL
 - Medallion Architecture
+- Data Transformation
+- Data Quality Validation
 - Environment Variable / Secret Management
 
-Repository:
+### Status
+
+✅ **Bronze, Silver, and Gold pipeline complete**
+
+### Repository
 
 https://github.com/orlandohernandez-ai/retail-data-warehouse
 
