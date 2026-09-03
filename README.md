@@ -12,21 +12,60 @@ I enjoy building projects that solve real-world operational problems while docum
 
 # ⭐ Featured Projects
 
-## Operations Control Tower
+## 🏭 Operations Control Tower
 
-UPS-inspired operational monitoring platform currently under development.
+Operations-focused monitoring and data engineering platform inspired by real-world logistics environments. Designed to centralize operational data, monitor key processes, detect exceptions, and provide visibility into facility activity.
 
-### Skills
+### Project Highlights
+
+- Designed a PostgreSQL operational database for facilities, equipment, employees, shifts, package flow, trailer movements, equipment events, alerts, and users
+- Built Python-to-PostgreSQL data integration workflows
+- Created CSV ingestion pipelines for operational and trailer movement data
+- Implemented SQL-based business rules for detecting operational exceptions
+- Developed automated alert logic using configurable operational thresholds
+- Built a web-based Operational Status Dashboard using HTML, CSS, and JavaScript
+- Designed monitoring views for Preload, Primary Sort, and Outbound operations
+- Implemented NORMAL, WARNING, and CRITICAL operational status levels
+- Containerized PostgreSQL and pgAdmin using Docker
+- Designed the platform to support future real-time event streaming, machine learning, and cloud deployment
+
+### Architecture
+
+**Operational Data → Python Ingestion → PostgreSQL → Business Rules → Alerts → Operational Dashboard**
+
+### Technologies & Skills
 
 - Python
 - PostgreSQL
 - SQL
 - Docker
+- pgAdmin
+- HTML
+- CSS
+- JavaScript
 - Data Engineering
-- Monitoring
-- Dashboard Design
+- ETL / Data Ingestion
+- Database Design
+- Business Rule Processing
+- Operational Monitoring
+- Alert Detection
+- Dashboard Development
+- System Design
 
-Repository:
+### Future Development
+
+- Real-time event streaming
+- Apache Kafka integration
+- Predictive operational alerts
+- Machine learning risk models
+- KPI dashboards and interactive visualizations
+- Google Cloud deployment
+
+### Status
+
+🚧 **Active Development**
+
+### Repository
 
 https://github.com/orlandohernandez-ai/ops-control-tower
 
