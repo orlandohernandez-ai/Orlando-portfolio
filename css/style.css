@@ -1,0 +1,546 @@
+body {
+    background-color: #0f172a;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* =========================
+   NAVIGATION
+   ========================= */
+
+.navbar {
+    padding: 25px 10%;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* =========================
+   HERO
+   ========================= */
+
+.hero {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.hero-content {
+    max-width: 850px;
+}
+
+.intro {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.hero h2 {
+    font-size: 1.8rem;
+    margin-top: 15px;
+}
+
+.hero-description {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-top: 25px;
+    max-width: 750px;
+}
+
+.hero-buttons {
+    margin-top: 30px;
+}
+
+.hero-buttons a {
+    display: inline-block;
+    padding: 12px 22px;
+    margin-right: 12px;
+    border: 1px solid white;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+}
+
+/* =========================
+   SHARED SECTION CONTAINER
+   ========================= */
+
+.section-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-label {
+    font-size: 0.9rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+/* =========================
+   ABOUT
+   ========================= */
+
+.about {
+    padding: 100px 10%;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.about-content {
+    max-width: 900px;
+}
+
+.about-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* =========================
+   PROJECTS
+   ========================= */
+
+.projects {
+    padding: 100px 10%;
+}
+
+.projects h2 {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.project-card {
+    border: 1px solid #334155;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.project-card > p {
+    line-height: 1.7;
+}
+
+.project-status {
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.project-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 25px 0;
+}
+
+.project-tech span {
+    border: 1px solid #475569;
+    border-radius: 5px;
+    padding: 6px 10px;
+    font-size: 0.85rem;
+}
+
+.project-card a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* =========================
+   SKILLS
+   ========================= */
+
+.skills {
+    padding: 100px 10%;
+}
+
+.skills h2 {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.skill-card {
+    border: 1px solid #334155;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.skill-card h3 {
+    font-size: 1.3rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-list span {
+    border: 1px solid #475569;
+    border-radius: 5px;
+    padding: 7px 11px;
+    font-size: 0.9rem;
+}
+
+.skill-card:last-child {
+    grid-column: 1 / -1;
+}
+
+/* =========================
+   CERTIFICATIONS
+   ========================= */
+
+.certifications {
+    padding: 100px 10%;
+}
+
+.certifications h2 {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.cert-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.cert-card {
+    border: 1px solid #334155;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.cert-card h3 {
+    font-size: 1.4rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.cert-card ul {
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.cert-card li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.cert-status {
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* =========================
+   SERVICES
+   ========================= */
+
+.services {
+    padding: 100px 10%;
+}
+
+.services h2 {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.services-intro {
+    max-width: 850px;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.service-card {
+    border: 1px solid #334155;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.service-card h3 {
+    font-size: 1.3rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.service-card p {
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.service-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.service-tech span {
+    border: 1px solid #475569;
+    border-radius: 5px;
+    padding: 7px 11px;
+    font-size: 0.9rem;
+}
+
+.services-cta {
+    margin-top: 40px;
+}
+
+.services-cta p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.fiverr-button {
+    display: inline-block;
+    padding: 14px 22px;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.fiverr-button:hover {
+    background-color: #ffffff;
+    color: #0f172a;
+}
+
+/* =========================
+   CONTACT
+   ========================= */
+
+.contact {
+    padding: 100px 10%;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.contact-intro {
+    max-width: 750px;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 35px;
+}
+
+.contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.contact-links a {
+    display: inline-block;
+    padding: 12px 20px;
+    border: 1px solid #475569;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-links a:hover {
+    background-color: white;
+    color: #0f172a;
+}
+
+/* =========================
+   SMOOTH SCROLL
+   ========================= */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* =========================
+   BACK TO TOP BUTTON
+   ========================= */
+
+.back-to-top {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+
+    width: 48px;
+    height: 48px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid #64748b;
+    border-radius: 50%;
+
+    background-color: #111827;
+    color: white;
+
+    font-size: 24px;
+    text-decoration: none;
+
+    cursor: pointer;
+    transition: 0.2s ease;
+
+    z-index: 1000;
+}
+
+.back-to-top:hover {
+    background-color: white;
+    color: #0f172a;
+    transform: translateY(-3px);
+}
+
+/* =========================
+   MOBILE / RESPONSIVE
+   ========================= */
+
+@media (max-width: 768px) {
+
+    .navbar {
+        padding: 20px 6%;
+    }
+
+    .nav-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .nav-links {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 12px 24px;
+    }
+
+    .nav-links a {
+        font-size: 0.95rem;
+    }
+
+    .hero {
+        min-height: auto;
+        padding: 80px 6%;
+    }
+
+    .hero h1 {
+        font-size: 2.8rem;
+    }
+
+    .hero h2 {
+        font-size: 1.4rem;
+    }
+
+    .hero-description {
+        font-size: 1rem;
+    }
+
+    .about,
+    .projects,
+    .skills,
+    .certifications,
+    .services,
+    .contact {
+        padding: 70px 6%;
+    }
+
+    .project-grid,
+    .skills-grid,
+    .cert-grid,
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .skill-card:last-child {
+        grid-column: auto;
+    }
+
+    .projects h2,
+    .skills h2,
+    .certifications h2,
+    .services h2,
+    .contact h2,
+    .about h2 {
+        font-size: 2rem;
+    }
+
+    .contact-links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contact-links a {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .back-to-top {
+        right: 16px;
+        bottom: 16px;
+        width: 44px;
+        height: 44px;
+        font-size: 21px;
+    }
+}
