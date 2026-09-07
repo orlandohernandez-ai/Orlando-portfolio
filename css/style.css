@@ -544,3 +544,70 @@ html {
         font-size: 21px;
     }
 }
+
+.project-showcase {
+    margin: 24px 0;
+}
+
+.project-main-image {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    margin-bottom: 16px;
+}
+
+.project-showcase-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.project-showcase-grid img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+@media (max-width: 768px) {
+    .project-showcase-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.project-showcase-title {
+    margin-top: 24px;
+    margin-bottom: 12px;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.warehouse-showcase-grid {
+    display: grid;
+    grid-template-columns: 0.7fr 1.3fr;
+    gap: 16px;
+    align-items: start;
+}
+
+.warehouse-showcase-grid img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.showcase-label {
+    margin: 0 0 8px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .warehouse-showcase-grid {
+        grid-template-columns: 1fr;
+    }
+}
