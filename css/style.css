@@ -143,7 +143,7 @@ body {
 
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 25px;
 }
 
@@ -151,6 +151,8 @@ body {
     border: 1px solid #334155;
     border-radius: 10px;
     padding: 30px;
+    min-width: 0;
+    overflow: hidden;
 }
 
 .project-card h3 {
@@ -585,20 +587,6 @@ html {
     text-transform: uppercase;
 }
 
-.warehouse-showcase-grid {
-    display: grid;
-    grid-template-columns: 0.7fr 1.3fr;
-    gap: 16px;
-    align-items: start;
-}
-
-.warehouse-showcase-grid img {
-    width: 100%;
-    display: block;
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.12);
-}
-
 .showcase-label {
     margin: 0 0 8px;
     font-size: 0.85rem;
@@ -606,8 +594,33 @@ html {
     opacity: 0.8;
 }
 
+.warehouse-showcase-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem;
+}
+
+.warehouse-showcase-grid > div {
+    min-width: 0;
+}
+
+.warehouse-showcase-grid img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+    background: #ffffff
+}
+
+
 @media (max-width: 768px) {
     .warehouse-showcase-grid {
         grid-template-columns: 1fr;
     }
+}
+
+.rfm-chart {
+    max-height: 260px;
+    object-fit: contain;
 }
