@@ -621,6 +621,12 @@ html {
     width: 70%;
     margin: 0 auto;
 }
+    .monthly-revenue {
+    grid-column: 1 / -1;
+    text-align: center;
+    width: 100%;
+}
+
 
 @media (max-width: 768px) {
     .warehouse-showcase-grid {
