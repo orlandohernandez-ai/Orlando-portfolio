@@ -73,7 +73,7 @@ https://github.com/orlandohernandez-ai/ops-control-tower
 
 ## 🏬 Retail Data Warehouse
 
-End-to-end medallion-style retail data warehouse built with PostgreSQL, Python, SQL, Docker, and pgAdmin.
+End-to-end retail data engineering and machine learning project built with PostgreSQL, Python, SQL, Docker, Jupyter, and scikit-learn. The project implements a Bronze-Silver-Gold Medallion Architecture and expands into exploratory data analysis, RFM customer segmentation, and KMeans clustering across 50,000 transactions and 2,000 customers.
 
 ### Project Highlights
 
@@ -85,7 +85,23 @@ End-to-end medallion-style retail data warehouse built with PostgreSQL, Python, 
 - Implemented data quality checks throughout the pipeline
 - Containerized PostgreSQL and pgAdmin using Docker
 - Secured database credentials using environment variables and `.env`
-- Validated data at each stage using SQL and pgAdmin
+
+## Version 2 — Analytics & Machine Learning
+
+- Scaled the dataset to 50,000 transactions across 2,000 customers
+- Performed exploratory data analysis (EDA) using Jupyter Notebook
+- Built Recency, Frequency, and Monetary (RFM) customer segmentation
+- Standardized RFM features for machine learning
+- Applied the Elbow Method to evaluate the number of customer clusters
+- Built a KMeans clustering model with three behavioral customer groups
+- Compared rule-based RFM segments with data-driven KMeans clusters
+- Created visualizations to communicate customer behavior and business insights
+
+### RFM Segmentation vs KMeans Clustering
+
+The rule-based RFM customer segments were compared with KMeans clusters to evaluate how business-defined customer categories align with data-driven behavioral patterns.
+
+![RFM Segments vs KMeans Customer Clusters](images/rfm_vs_kmeans.png)
 
 ### Architecture
 
@@ -104,10 +120,18 @@ End-to-end medallion-style retail data warehouse built with PostgreSQL, Python, 
 - Data Transformation
 - Data Quality Validation
 - Environment Variable / Secret Management
+- Pandas
+- Jupyter Notebook
+- scikit-learn
+- Matplotlib
+- Exploratory Data Analysis (EDA)
+- RFM Customer Segmentation
+- KMeans Clustering
+- Machine Learning
 
 ### Status
 
-✅ **Bronze, Silver, and Gold pipeline complete**
+✅ **Version 2 Complete — Medallion Data Pipeline, Analytics, RFM Segmentation & Machine Learning**
 
 ### Repository
 

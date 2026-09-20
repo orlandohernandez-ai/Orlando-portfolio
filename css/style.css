@@ -604,6 +604,10 @@ html {
     min-width: 0;
 }
 
+.warehouse-showcase-grid > div:nth-child(3) {
+    grid-column: 1 / -1;
+}
+
 .warehouse-showcase-grid img {
     width: 100%;
     max-width: 100%;
@@ -613,6 +617,10 @@ html {
     background: #ffffff
 }
 
+.kmeans-chart {
+    width: 70%;
+    margin: 0 auto;
+}
 
 @media (max-width: 768px) {
     .warehouse-showcase-grid {
