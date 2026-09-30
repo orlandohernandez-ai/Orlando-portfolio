@@ -259,6 +259,33 @@ body {
     gap: 25px;
 }
 
+.credentials-link {
+    margin-bottom: 32px;
+}
+
+.credentials-link p {
+    line-height: 1.7;
+}
+
+.credentials-link a {
+    display: inline-block;
+    box-sizing: border-box;
+    max-width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #475569;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.credentials-link a:hover,
+.credentials-link a:focus-visible {
+    background-color: white;
+    color: #0f172a;
+}
+
 .cert-card {
     border: 1px solid #334155;
     border-radius: 10px;
